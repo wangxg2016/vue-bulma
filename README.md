@@ -15,6 +15,7 @@ npm run dev
 
 # 打包项目
 npm run build
+打包前注意将node_modules\moment\locale\目录下除zh-cn.js的文件全部删除，否则打包后文件将会很大
 
 # 运行测试
 npm run unit
