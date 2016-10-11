@@ -121,20 +121,18 @@ global.$fn = {
     // console.log(response)
     switch (response.status) {
       case 0: // 网络不通
-        this.toast('网络暂时未能连通', '', true, 'top')
+        this.toast('warning', '网络暂时未能连通')
         break
       case 401: // 未登录
       case 521: // 超时
       case 522: // 错误
-        // 退出当前用户帐号,路由到登录页
         this.init()
-        router.go('/login?redirect=' + encodeURIComponent(window.location.pathname + window.location.search))
         break
       case 523:
-        this.toast('当前时间存在较大偏差')
+        this.toast('danger', '当前时间存在较大偏差')
         break
       case 524:
-        this.toast('未找到相关数据')
+        this.toast('danger', '未找到相关数据')
         break
       default:
         // 其它错误，暂不处理
@@ -233,8 +231,7 @@ router.beforeEach((to, from, next) => {
     // 判断是否登录，（可以通过接口，Vuex状态 token）
     // 没有登录走下面逻辑
     global.$fn.init()
-    let redirect = encodeURIComponent(to.path)
-    next('/login?redirect=' + redirect)
+    next()
   }
 })
 
