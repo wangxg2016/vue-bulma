@@ -1,0 +1,10 @@
+﻿CACHE MANIFEST
+# 2016101103
+
+CACHE:
+//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css
+//cdn.bootcss.com/bulma/0.2.1/css/bulma.min.css
+//cdn.bootcss.com/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3
+
+NETWORK:
+*

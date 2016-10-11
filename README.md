@@ -21,7 +21,9 @@ npm run build
 npm run unit
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## manifest 缓存
+
+> 为了让前端飞，我们还需要进行manifest缓存。示例文件为web.manifest，通过设定甚至可以进行整站缓存，如果需要使用该设定，请记住每次代码更新的同时也需要修改一下该文件避免加载出错。 
 
 ## 引入
 
@@ -30,5 +32,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 - [vuex](http://vuex.vuejs.org)
 - [vue-router](http://router.vuejs.org)
 - [vue-resource](https://github.com/vuejs/vue-resource)
-- [Less](http://lesscss.org/)
-- [Webpack](https://webpack.github.io/)
+
+## 特别提示
+
+> 本项目构建中已使用eslint，力求代码排版标准化方便阅读，建议不用在设置里取消该设定
