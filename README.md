@@ -1,4 +1,4 @@
-# vue-bulma - In Development
+# Vue-Bulma
 
 > 轻量级高性能MVVM Admin UI框架
 
