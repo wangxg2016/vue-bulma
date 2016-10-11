@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     run () {
-      this.callback() && this.callback()
+      this.callback && this.callback()
     }
   }
 }
