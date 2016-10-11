@@ -1,0 +1,35 @@
+@import '../variables.less';
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: @color-primary;
+
+  span {
+    margin: 0 .2rem 0 0;
+    line-height:1;
+    position: relative;
+    display:inline-block;
+  }
+  i {
+    line-height:1;
+    cursor: pointer;
+  }
+  .icon-copy{
+    position:absolute;bottom:0;margin-left:-100%;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .effect-grow{
+    animation-name: grow;
+  }
+  .effect-rotate{
+    animation-name: grow-rotate;
+  }
+  .effect-fade{
+    animation-name: fade;
+  }
+}
+@keyframes grow{0%{transform:scale(1)}99%{transform:scale(4);opacity:0;}to{transform:scale(1);opacity:0;}}
+@keyframes grow-rotate{0%{transform:scale(1) rotate(0deg)}99%{transform:scale(4) rotate(90deg);opacity:0}to{transform:scale(1) rotate(0deg);opacity:0;}}
+@keyframes fade{0%{transform:translate3d(0,0,0)}99%{transform:translate3d(0,-40px,0);opacity:0;}to{transform:scale(1) translate3d(0,0,0);opacity:0}}
