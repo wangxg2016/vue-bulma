@@ -11,6 +11,7 @@ import About from './demos/About'
 import Stars from './demos/Stars'
 import Toast from './demos/Toast'
 import Modal from './demos/Modal'
+import Pagination from './demos/Pagination'
 import Notfound from './demos/404'
 
 // UI
@@ -192,6 +193,10 @@ const routes = [
   {
     path: '/stars',
     component: Stars
+  },
+  {
+    path: '/pagination',
+    component: Pagination
   },
   {
     path: '/form',

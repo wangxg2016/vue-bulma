@@ -79,8 +79,7 @@ export default {
                 {title: 'Buttons', icon: 'caret-right', url: '/buttons'},
                 {title: 'Tags', icon: 'caret-right', url: '/tags'},
                 {title: 'Container', icon: 'caret-right', url: '/box'},
-                {title: 'Tabs', icon: 'caret-right', url: '/tabs'},
-                {title: 'Form', icon: 'caret-right', url: '/form'}
+                {title: 'Tabs', icon: 'caret-right', url: '/tabs'}
               ]
             },
             {
@@ -90,6 +89,7 @@ export default {
                 {title: 'Toast', icon: 'caret-right', url: '/toast'},
                 {title: 'Modal', icon: 'caret-right', url: '/modal'},
                 {title: 'Stars', icon: 'caret-right', url: '/stars'},
+                {title: 'Pagination', icon: 'caret-right', url: '/pagination'},
                 {title: '404', icon: 'caret-right', url: '/notfound'}
               ]
             },

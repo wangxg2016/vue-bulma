@@ -82,7 +82,11 @@ export default {
 }
 </script>
 <style lang="less">
-
+@media screen and (min-width: 769px){
+.modal-content, .modal-card {
+  margin:inherit;
+}
+}
 .tabs a{
   transition: all 100ms;
 }
