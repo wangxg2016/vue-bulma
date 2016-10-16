@@ -6,7 +6,7 @@
       <p class="subtitle">vue页码组件</p>
       <p>vue典型组件，从这个组件的设计中体现了与jquery的巨大不同，组件中只需要一行代码即可实现比较复杂的页码显示处理，使用了配置设定来代替代码驱动dom，彻底告别了乱糟糟的代码。</p>
       <hr>
-      <pagination :index="page" :count="7" :loading="loading" @change="pages(arguments[0])"></pagination>
+      <pagination :index="page" :count="18" :loading="loading" @change="pages(arguments[0])"></pagination>
   </div>
 </xcontent>
 </template>
