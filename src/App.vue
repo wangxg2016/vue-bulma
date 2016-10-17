@@ -168,6 +168,9 @@ a .icon {
 .is-middle{
   vertical-align: middle;
 }
+.is-flex{
+  display:flex;
+}
 .no-shadow{
   box-shadow:none;
 }
@@ -195,7 +198,7 @@ section.page>.columns{
   right:0;
   bottom:0;
   overflow:hidden;
-  background-color: #eceff1;
+  background-color: #fff;
 }
 .page-content{
   position:absolute;
@@ -208,5 +211,66 @@ section.page>.columns{
 }
 .inner-header, .inner-content{
   padding: 20px;
+}
+
+
+.example:not(:last-child), .structure:not(:last-child) {
+    margin-bottom: 20px;
+}
+.example:not(:first-child), .structure:not(:first-child) {
+    margin-top: 30px;
+}
+.example, .structure {
+    border: 1px solid #ffdd57;
+    border-top-right-radius: 3px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 15px 20px;
+    position: relative;
+}
+.example:before, .structure:before {
+    background: #ffdd57;
+    border-radius: 3px 3px 0 0;
+    bottom: 100%;
+    content: "Example";
+    display: inline-block;
+    font-size: 7px;
+    font-weight: bold;
+    left: -1px;
+    letter-spacing: 1px;
+    padding: 3px 5px;
+    position: absolute;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+.highlight {
+    position: relative;
+}
+.highlight .copy, .highlight .expand {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: white;
+    border: solid #dbdbdb;
+    border-width: 0 0 1px 1px;
+    color: #7a7a7a;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.example + .highlight:not(:last-child) {
+    margin-bottom: 40px;
+}
+.example + .highlight {
+    border: 1px solid #ffdd57;
+    border-radius: 0 0 3px 3px;
+    border-top: none;
+    margin-top: -20px;
+}
+button.copy{
+  display:none;
 }
 </style>

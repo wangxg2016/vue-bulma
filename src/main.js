@@ -12,14 +12,19 @@ import Stars from './demos/Stars'
 import Toast from './demos/Toast'
 import Modal from './demos/Modal'
 import Pagination from './demos/Pagination'
+import Progress from './demos/progress'
 import Notfound from './demos/404'
 
 // UI
 import Icons from './demos/Icons'
 import Buttons from './demos/Buttons'
-import Box from './demos/Box'
+import Content from './demos/Content'
 import Tags from './demos/Tags'
+import Title from './demos/Title'
 import Tabs from './demos/Tabs'
+import Table from './demos/Table'
+import Image from './demos/Image'
+import Notifications from './demos/notifications'
 
 // vuex store
 import store from './store'
@@ -171,16 +176,32 @@ const routes = [
     component: Buttons
   },
   {
-    path: '/box',
-    component: Box
+    path: '/content',
+    component: Content
   },
   {
     path: '/tabs',
     component: Tabs
   },
   {
+    path: '/table',
+    component: Table
+  },
+  {
+    path: '/title',
+    component: Title
+  },
+  {
     path: '/tags',
     component: Tags
+  },
+  {
+    path: '/progress',
+    component: Progress
+  },
+  {
+    path: '/image',
+    component: Image
   },
   {
     path: '/toast',
@@ -201,6 +222,10 @@ const routes = [
   {
     path: '/form',
     component: Form
+  },
+  {
+    path: '/notifications',
+    component: Notifications
   },
   {
     /*

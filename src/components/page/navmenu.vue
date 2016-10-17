@@ -77,9 +77,14 @@ export default {
               sub: [
                 {title: 'Icons', icon: 'caret-right', url: '/icons'},
                 {title: 'Buttons', icon: 'caret-right', url: '/buttons'},
+                {title: 'Form', icon: 'caret-right', url: '/form'},
                 {title: 'Tags', icon: 'caret-right', url: '/tags'},
-                {title: 'Container', icon: 'caret-right', url: '/box'},
-                {title: 'Tabs', icon: 'caret-right', url: '/tabs'}
+                {title: 'Image', icon: 'caret-right', url: '/image'},
+                {title: 'Notifications', icon: 'caret-right', url: '/notifications'},
+                {title: 'Content', icon: 'caret-right', url: '/Content'},
+                {title: 'Tabs', icon: 'caret-right', url: '/tabs'},
+                {title: 'Table', icon: 'caret-right', url: '/table'},
+                {title: 'Title', icon: 'caret-right', url: '/title'}
               ]
             },
             {
@@ -88,6 +93,7 @@ export default {
               sub: [
                 {title: 'Toast', icon: 'caret-right', url: '/toast'},
                 {title: 'Modal', icon: 'caret-right', url: '/modal'},
+                {title: 'Progress', icon: 'caret-right', url: '/progress'},
                 {title: 'Stars', icon: 'caret-right', url: '/stars'},
                 {title: 'Pagination', icon: 'caret-right', url: '/pagination'},
                 {title: '404', icon: 'caret-right', url: '/notfound'}
@@ -125,7 +131,7 @@ section.menu {
   top:0;
   width:220px;
   bottom:0;
-  background-color:#fff;
+  background-color:#fafafa;
   box-shadow:1px 0 1px rgba(0,0,0,0.2);
   display:flex;
   flex-direction:column;
@@ -148,7 +154,7 @@ section.menu .panel-block{
   flex-grow:0;
   flex-shrink:0;
   line-height:20px;
-  background-color:#fafafa;
+  background-color:#eee;
   border-radius:0;
   box-shadow: 0 -1px 0 rgba(0,0,0,0.12);
   border-bottom:none;
