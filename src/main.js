@@ -21,6 +21,7 @@ import Charts from './demos/Charts'
 // UI
 import Icons from './demos/Icons'
 import Nav from './demos/Nav'
+import Ajax from './demos/Ajax'
 import Panel from './demos/Panel'
 import Card from './demos/Card'
 import Level from './demos/Level'
@@ -97,23 +98,20 @@ global.$fn = {
     // console.log(this.cache)
   },
   // get方式 不鉴权，可进行数据缓存
-  $get (ajaxurl, callback, _self, exp) {
+  $get (ajaxurl, callback, callerr, exp) {
     // callback _self:this,data,ajax
-    let url = this.ajaxhost + ajaxurl
+    let url = ajaxurl
     let data = this.getCache(url)
     if (!data) {
-      _self.$http.get(url, {}, {
+      Vue.http.get(url, {}, {
       }).then((response) => {
-        callback(_self, response.data, true)
+        callback(response.data, true)
         if (!(exp && exp < 0)) this.setCache(url, response.data, exp)
-        let json = {}
-        json.timestamp = this.timestamp()
-        json.data = response.data
       }, (response) => {
         this.ajaxerr(response)
       })
     } else {
-      callback(_self, data, false)
+      callback(data, false)
     }
   },
   // post带鉴权，不使用缓存
@@ -263,6 +261,10 @@ const routes = [
   {
     path: '/form',
     component: Form
+  },
+  {
+    path: '/ajax',
+    component: Ajax
   },
   {
     path: '/nav',

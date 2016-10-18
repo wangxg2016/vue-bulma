@@ -97,6 +97,7 @@ export default {
               title: '功能组件',
               icon: 'puzzle-piece',
               sub: [
+                {title: 'Ajax', url: '/ajax'},
                 {title: 'Charts', url: '/charts'},
                 {title: 'Collapse', url: '/collapse'},
                 {title: 'Modal', url: '/modal'},
