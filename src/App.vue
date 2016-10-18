@@ -78,6 +78,13 @@ export default {
 
     document.getElementById('linkIcon').href = ico
     document.getElementById('linkAppIcon').href = icon
+
+    window.applicationCache.addEventListener('updateready', (e) => {
+      if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
+        console.log('system update')
+        window.location.reload()
+      }
+    }, false)
   }
 }
 </script>
