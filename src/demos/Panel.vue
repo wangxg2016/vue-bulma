@@ -1,7 +1,6 @@
 <template>
 <xcontent>
   <span slot="title">Panel</span>
-<div class="container">
     <h1 class="title">Panel</h1>
     <h2 class="subtitle">A composable <strong>panel</strong>, for compact controls</h2>
 
@@ -104,7 +103,6 @@
 <span class="nt">&lt;/nav&gt;</span></code></pre><button class="copy">Copy</button><button class="expand">Expand</button></figure>
       </div>
     </div>
-  </div>
 </xcontent>
 </template>
 <script>
