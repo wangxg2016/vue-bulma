@@ -102,6 +102,7 @@ export default {
                 {title: 'Pagination', url: '/pagination'},
                 {title: 'Progress', url: '/progress'},
                 {title: 'Rating', icon: 'star', url: '/rating'},
+                {title: 'Timeline', url: '/timeline'},
                 {title: 'Toast', url: '/toast'},
                 {title: '404', url: '/notfound'}
               ]

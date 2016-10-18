@@ -270,6 +270,9 @@ section.page>.columns{
     border-top: none;
     margin-top: -20px;
 }
+.bg-light{
+  background-color:#f1f1f1;
+}
 button.copy{
   display:none;
 }

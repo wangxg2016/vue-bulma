@@ -13,8 +13,9 @@ import Collapse from './demos/Collapse'
 import Toast from './demos/Toast'
 import Modal from './demos/Modal'
 import Pagination from './demos/Pagination'
-import Progress from './demos/progress'
+import Progress from './demos/Progress'
 import Notfound from './demos/404'
+import Timeline from './demos/Timeline'
 
 // UI
 import Icons from './demos/Icons'
@@ -209,6 +210,10 @@ const routes = [
   {
     path: '/image',
     component: Image
+  },
+  {
+    path: '/timeline',
+    component: Timeline
   },
   {
     path: '/collapse',

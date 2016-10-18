@@ -1,5 +1,5 @@
 <template>
-<section class="page-content">
+<section class="page-content" :class="classname">
   <div class="page-inner">
     <div class="hero is-primary">
       <div class="inner-header">
@@ -15,7 +15,11 @@
 </template>
 <script>
 export default {
-  components: {
+  props: {
+    classname: {
+      type: String,
+      default: ''
+    }
   }
 }
 </script>
