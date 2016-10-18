@@ -75,15 +75,21 @@ export default {
               title: 'UI元件',
               icon: 'diamond',
               sub: [
-                {title: 'Icons', url: '/icons'},
                 {title: 'Buttons', url: '/buttons'},
-                {title: 'Form', url: '/form'},
-                {title: 'Tags', url: '/tags'},
-                {title: 'Image', url: '/image'},
-                {title: 'Notifications', url: '/notifications'},
+                {title: 'Card', url: '/card'},
                 {title: 'Content', url: '/Content'},
-                {title: 'Tabs', url: '/tabs'},
+                {title: 'Form', url: '/form'},
+                {title: 'Icons', url: '/icons'},
+                {title: 'Image', url: '/image'},
+                {title: 'Level', url: '/level'},
+                {title: 'MediaObject', url: '/mediaobject'},
+                {title: 'Message', url: '/message'},
+                {title: 'Nav', url: '/nav'},
+                {title: 'Notifications', url: '/notifications'},
+                {title: 'Panel', url: '/panel'},
                 {title: 'Table', url: '/table'},
+                {title: 'Tabs', url: '/tabs'},
+                {title: 'Tags', url: '/tags'},
                 {title: 'Title', url: '/title'}
               ]
             },
@@ -91,12 +97,12 @@ export default {
               title: '功能组件',
               icon: 'puzzle-piece',
               sub: [
-                {title: 'Toast', url: '/toast'},
+                {title: 'Collapse', url: '/collapse'},
                 {title: 'Modal', url: '/modal'},
+                {title: 'Pagination', url: '/pagination'},
                 {title: 'Progress', url: '/progress'},
                 {title: 'Rating', icon: 'star', url: '/rating'},
-                {title: 'Collapse', url: '/collapse'},
-                {title: 'Pagination', url: '/pagination'},
+                {title: 'Toast', url: '/toast'},
                 {title: '404', url: '/notfound'}
               ]
             },

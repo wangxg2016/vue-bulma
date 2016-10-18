@@ -18,6 +18,12 @@ import Notfound from './demos/404'
 
 // UI
 import Icons from './demos/Icons'
+import Nav from './demos/Nav'
+import Panel from './demos/Panel'
+import Card from './demos/Card'
+import Level from './demos/Level'
+import MediaObject from './demos/MediaObject'
+import Message from './demos/Message'
 import Buttons from './demos/Buttons'
 import Content from './demos/Content'
 import Tags from './demos/Tags'
@@ -217,6 +223,26 @@ const routes = [
     component: Modal
   },
   {
+    path: '/card',
+    component: Card
+  },
+  {
+    path: '/level',
+    component: Level
+  },
+  {
+    path: '/panel',
+    component: Panel
+  },
+  {
+    path: '/message',
+    component: Message
+  },
+  {
+    path: '/mediaobject',
+    component: MediaObject
+  },
+  {
     path: '/rating',
     component: Rating
   },
@@ -227,6 +253,10 @@ const routes = [
   {
     path: '/form',
     component: Form
+  },
+  {
+    path: '/nav',
+    component: Nav
   },
   {
     path: '/notifications',
