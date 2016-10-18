@@ -1,5 +1,5 @@
 <template>
-<xcontent>
+<xcontent :classname="'bg-light'">
   <span slot="title"><span class="icon is-middle"><i class="fa fa-home is-right-5"></i></span>首页</span>
   <div slot="menu" class="tabs is-boxed" style="margin:10px 20px 0;">
     <ul class="is-left">
@@ -10,9 +10,7 @@
     </ul>
   </div>
 <div class="tabs-content-container">
-<transition-group name="fade" mode="out-in">
-
-<div class="fade" v-show="index===0" :key="0">
+<div class="fade" v-show="index===0">
 <div class="tile is-ancestor">
   <div class="tile is-parent">
     <article class="tile is-child notification is-normal">
@@ -30,7 +28,7 @@
 </div>
 </div>
 
-<div class="fade" v-show="index===1" :key="1">
+<div class="fade" v-show="index===1">
 <div class="tile is-ancestor">
   <div class="tile is-parent">
     <article class="tile is-child notification is-normal">
@@ -92,7 +90,7 @@
 </div>
 </div>
 
-<div class="fade" v-show="index===2" :key="2">
+<div class="fade" v-show="index===2">
 <div class="tile is-ancestor">
   <div class="tile is-parent">
     <article class="tile is-child notification is-normal">
@@ -109,7 +107,7 @@
 </div>
 </div>
 
-<div class="fade" v-show="index===3" :key="3">
+<div class="fade" v-show="index===3">
 <div class="tile is-ancestor">
   <div class="tile is-parent">
     <article class="tile is-child notification is-normal">
@@ -125,7 +123,6 @@
   </div>
 </div>
 </div>
-</transition-group>
 
 </xcontent>
 </template>

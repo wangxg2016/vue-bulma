@@ -183,7 +183,6 @@ aside.menu .menu-label .icon{
 aside.menu a {
   position:relative;
   line-height:20px;
-  transition:all 0.3s;
 }
 aside.menu li ul {
   margin: 5px 0 5px 18px;
