@@ -267,3 +267,8 @@ export default {
   }
 }
 </script>
+<style lang="less">
+  canvas{
+    user-select:none;
+  }
+</style>
