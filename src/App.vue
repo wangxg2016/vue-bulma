@@ -151,7 +151,7 @@ a .icon {
   margin-left:10px;
 }
 .is-bottom-5{
-  margin-bottom:5px;
+  margin-bottom:5px !important;
 }
 .is-bottom-10{
   margin-bottom:10px;

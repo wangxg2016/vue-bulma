@@ -11,14 +11,10 @@
     <div class="example">
       <progress-bar :value="15" :max="100"></progress-bar>
       <progress-bar :classname="'is-primary'" :value="30"></progress-bar>
-      <p class="is-5">No Title</p>
-      <progress-bar :classname="'is-danger'" :value="30" :showtitle="false"></progress-bar>
-      <p class="is-5">Custom1</p>
-      <progress-bar :classname="'is-info'" :value="val" :max="200" :readonly="false" :unit="'个'" :step="1" @change="update"></progress-bar>
-      <p class="is-5">Custom2</p>
-      <progress-bar :classname="'is-danger is-large'" :value="val2" :max="100" :readonly="false" :unit="'天'" :step="1" @change="update2"></progress-bar>
-      <p class="is-5">Custom3</p>
-      <progress-bar :classname="'is-primary is-small'" :value="val3" :max="100" :readonly="false" :step="0.1" @change="update3"></progress-bar>
+      <progress-bar :classname="'is-danger'" :value="30"></progress-bar>
+      <progress-bar :classname="'is-info'" :value="val" :max="200" title="保存数量 (个)" :readonly="false" :step="20" @change="update"></progress-bar>
+      <progress-bar :classname="'is-danger is-medium'" :value="val2" title="剩余时间 (天)" :readonly="false" :step="1" @change="update2"></progress-bar>
+      <progress-bar :classname="'is-primary is-small'" :value="val3" title="进度 (%)" :readonly="false" :step="0.1" @change="update3"></progress-bar>
     </div>
     <hr>
     <h3 class="title">Example</h3>

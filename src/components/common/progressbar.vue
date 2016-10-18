@@ -1,8 +1,11 @@
 <template>
-<div class="progress-container">
+<div class="columns is-multiline is-gapless is-mobile">
+  <div v-if="title.length>0" class="column is-6 is-bottom-5" v-text="title"></div>
+  <div v-if="title.length>0" class="column is-6 is-bottom-5 has-text-right"><span><strong v-text="value"></strong></span>/<span v-text="max"></span></div>
+  <div class="column is-12">
   <progress v-if="readonly" class="progress" :class="classname" :value="value" :max="max"></progress>
   <input v-if="!readonly" type="range" v-model="val" :min="0" :max="max" :step="step" number="" class="slider is-fullwidth" :class="classname" :style="'--low:0%;--high:'+high+'%;'">
-  <span v-if="showtitle" v-text="value+unit"></span>
+  </div>
 </div>
 </template>
 <script>
@@ -12,13 +15,9 @@ export default {
       type: String,
       default: ''
     },
-    unit: {
+    title: {
       type: String,
-      default: '%'
-    },
-    showtitle: {
-      type: Boolean,
-      default: true
+      default: ''
     },
     readonly: {
       type: Boolean,
@@ -60,24 +59,6 @@ export default {
   top:0;
   line-height:20px;
   font-size:20px;
-}
-.progress-container{
-    align-items: center;
-    margin-bottom: 20px;
-    display:flex
-}
-progress{
-  position:relative;
-}
-.progress-container .progress {
-    position: relative;
-    margin-bottom: 0!important;
-}
-.progress-container span {
-    margin-left:5px;
-    min-width: 40px;
-    text-align: right;
-    white-space:nowrap;
 }
 
 input[type=range].slider{--height:12px;border:none;border-radius:290486px;display:block;height:var(--height);padding:0;margin:0;cursor:pointer;outline:none;background:#dbdbdb;-webkit-tap-highlight-color:transparent
