@@ -16,6 +16,7 @@ import Pagination from './demos/Pagination'
 import Progress from './demos/Progress'
 import Notfound from './demos/404'
 import Timeline from './demos/Timeline'
+import Charts from './demos/Charts'
 
 // UI
 import Icons from './demos/Icons'
@@ -198,6 +199,10 @@ const routes = [
   {
     path: '/title',
     component: Title
+  },
+  {
+    path: '/charts',
+    component: Charts
   },
   {
     path: '/tags',
