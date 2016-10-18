@@ -1,7 +1,6 @@
 <template>
 <xcontent>
   <span slot="title">Title</span>
-<div class="container">
     <h1 class="title">Titles</h1>
     <h2 class="subtitle">
       Simple <strong>headings</strong> to add depth to your page
@@ -94,7 +93,6 @@
 <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"subtitle is-5"</span><span class="nt">&gt;</span>Subtitle 5<span class="nt">&lt;/p&gt;</span></code></pre><button class="copy">Copy</button></figure>
       </div>
     </div>
-  </div>
 </xcontent>
 </template>
 <script>

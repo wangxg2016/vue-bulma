@@ -1,6 +1,6 @@
 <template>
 <xcontent>
-  <span slot="title">Stars</span>
+  <span slot="title">Rating</span>
   <div class="notification"></button>
   <label class="label">ReanOnly</label>
   <stars :amount="4" :size="5"></stars>

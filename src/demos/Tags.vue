@@ -1,7 +1,6 @@
 <template>
 <xcontent>
   <span slot="title">Tags</span>
-<div class="container">
     <h1 class="title">Tags</h1>
     <h2 class="subtitle">
       Small <strong>tag labels</strong> to insert anywhere
@@ -146,7 +145,7 @@
 <span class="nt">&lt;/span&gt;</span></code></pre><button class="copy">Copy</button></figure>
       </div>
     </div>
-  </div>
+
 </xcontent>
 </template>
 <script>

@@ -1,7 +1,7 @@
 <template>
 <xcontent>
   <span slot="title">Image</span>
-<div class="container">
+
     <h1 class="title">Images</h1>
     <h2 class="subtitle">
       A container for <strong>responsive images</strong>
@@ -132,7 +132,7 @@
     <div class="content">
       <p>The <code>.image</code> container will take up the <strong>whole width</strong> while maintaining the perfect ratio.</p>
     </div>
-  </div>
+
 </xcontent>
 </template>
 <script>

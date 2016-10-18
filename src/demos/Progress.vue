@@ -1,7 +1,6 @@
 <template>
 <xcontent>
   <span slot="title">Progress</span>
-<div class="container">
     <h1 class="title">Progress bars</h1>
     <h2 class="subtitle">
       Native HTML <strong>progress</strong> bars
@@ -46,7 +45,7 @@
 <span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-medium"</span> <span class="na">value=</span><span class="s">"45"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>45%<span class="nt">&lt;/progress&gt;</span>
 <span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress is-large"</span> <span class="na">value=</span><span class="s">"60"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">&gt;</span>60%<span class="nt">&lt;/progress&gt;</span></code></pre><button class="copy">Copy</button></figure>
 
-  </div>
+
 </xcontent>
 </template>
 <script>

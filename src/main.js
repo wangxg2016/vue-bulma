@@ -8,7 +8,8 @@ import App from './App'
 import Index from './demos/Index'
 import Form from './demos/Form'
 import About from './demos/About'
-import Stars from './demos/Stars'
+import Rating from './demos/Rating'
+import Collapse from './demos/Collapse'
 import Toast from './demos/Toast'
 import Modal from './demos/Modal'
 import Pagination from './demos/Pagination'
@@ -204,6 +205,10 @@ const routes = [
     component: Image
   },
   {
+    path: '/collapse',
+    component: Collapse
+  },
+  {
     path: '/toast',
     component: Toast
   },
@@ -212,8 +217,8 @@ const routes = [
     component: Modal
   },
   {
-    path: '/stars',
-    component: Stars
+    path: '/rating',
+    component: Rating
   },
   {
     path: '/pagination',

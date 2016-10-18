@@ -1,7 +1,6 @@
 <template>
 <xcontent>
   <span slot="title">Form</span>
-<div class="container">
     <h1 class="title">Form controls</h1>
     <h2 class="subtitle">
       All generic <strong>form controls</strong>, designed for consistency
@@ -647,7 +646,6 @@
     <span class="nt">&lt;textarea</span> <span class="na">class=</span><span class="s">"textarea"</span> <span class="na">placeholder=</span><span class="s">"Explain how we can help you"</span><span class="nt">&gt;&lt;/textarea&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button></figure>
-  </div>
 </xcontent>
 </template>
 <script>

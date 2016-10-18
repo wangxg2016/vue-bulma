@@ -2,7 +2,6 @@
   <xcontent>
     <span slot="title">Buttons</span>
 
-    <div class="container">
     <h1 class="title">Buttons</h1>
     <h2 class="subtitle">
       The classic <strong>button</strong>, in different colors, sizes, and states
@@ -348,7 +347,6 @@
   <span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/p&gt;</span></code></pre><button class="copy">Copy</button></figure>
 
-  </div>
   </xcontent>
 </template>
 <script>

@@ -42,7 +42,7 @@
         <div v-if="!!item.sub" class="menu-subcontainer" :style="{height: (x+'.'+y)===index ? (item.sub.length * 30 + 10) + 'px':'0'}">
         <ul>
           <li v-for="sub in item.sub">
-            <router-link :to="sub.url"><span class="icon is-small"><i :class="'fa fa-'+sub.icon"></i></span><span v-text="sub.title"></span></router-link>
+            <router-link :to="sub.url"><span class="icon is-small"><i :class="'fa fa-'+(sub.icon?sub.icon:'caret-right')"></i></span><span v-text="sub.title"></span></router-link>
           </li>    
         </ul>
         </div>
@@ -75,28 +75,29 @@ export default {
               title: 'UI元件',
               icon: 'diamond',
               sub: [
-                {title: 'Icons', icon: 'caret-right', url: '/icons'},
-                {title: 'Buttons', icon: 'caret-right', url: '/buttons'},
-                {title: 'Form', icon: 'caret-right', url: '/form'},
-                {title: 'Tags', icon: 'caret-right', url: '/tags'},
-                {title: 'Image', icon: 'caret-right', url: '/image'},
-                {title: 'Notifications', icon: 'caret-right', url: '/notifications'},
-                {title: 'Content', icon: 'caret-right', url: '/Content'},
-                {title: 'Tabs', icon: 'caret-right', url: '/tabs'},
-                {title: 'Table', icon: 'caret-right', url: '/table'},
-                {title: 'Title', icon: 'caret-right', url: '/title'}
+                {title: 'Icons', url: '/icons'},
+                {title: 'Buttons', url: '/buttons'},
+                {title: 'Form', url: '/form'},
+                {title: 'Tags', url: '/tags'},
+                {title: 'Image', url: '/image'},
+                {title: 'Notifications', url: '/notifications'},
+                {title: 'Content', url: '/Content'},
+                {title: 'Tabs', url: '/tabs'},
+                {title: 'Table', url: '/table'},
+                {title: 'Title', url: '/title'}
               ]
             },
             {
               title: '功能组件',
               icon: 'puzzle-piece',
               sub: [
-                {title: 'Toast', icon: 'caret-right', url: '/toast'},
-                {title: 'Modal', icon: 'caret-right', url: '/modal'},
-                {title: 'Progress', icon: 'caret-right', url: '/progress'},
-                {title: 'Stars', icon: 'caret-right', url: '/stars'},
-                {title: 'Pagination', icon: 'caret-right', url: '/pagination'},
-                {title: '404', icon: 'caret-right', url: '/notfound'}
+                {title: 'Toast', url: '/toast'},
+                {title: 'Modal', url: '/modal'},
+                {title: 'Progress', url: '/progress'},
+                {title: 'Rating', icon: 'star', url: '/rating'},
+                {title: 'Collapse', url: '/collapse'},
+                {title: 'Pagination', url: '/pagination'},
+                {title: '404', url: '/notfound'}
               ]
             },
             {title: '关于', icon: 'cube', url: '/about'}

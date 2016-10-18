@@ -1,7 +1,6 @@
 <template>
 <xcontent>
   <span slot="title">Content</span>
-<div class="container">
     <h1 class="title">Content</h1>
     <h2 class="subtitle">
       A single class to handle WYSIWYG generated content, where only <strong>HTML tags</strong> are available
@@ -132,8 +131,6 @@
         </ul>
       </div>
     </div>
-  </div>
-
 </xcontent>
 </template>
 <script>

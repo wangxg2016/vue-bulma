@@ -1,7 +1,7 @@
 <template>
 <xcontent>
   <span slot="title">Table</span>
-<div class="container">
+
     <h1 class="title">Tables</h1>
     <h2 class="subtitle">The inevitable HTML <strong>table</strong>, with special case cells</h2>
 
@@ -338,7 +338,7 @@
         </table>
       </div>
     </div>
-  </div>
+
 </xcontent>
 </template>
 <script>

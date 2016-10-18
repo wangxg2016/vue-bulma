@@ -1,7 +1,7 @@
 <template>
 <xcontent>
   <span slot="title">Notifications</span>
-<div class="container">
+
     <h1 class="title">Notifications</h1>
     <h2 class="subtitle">
       Bold <strong>notification</strong> blocks, to alert your users of something
@@ -80,7 +80,7 @@
 <span class="nt">&lt;/div&gt;</span></code></pre><button class="copy">Copy</button><button class="expand">Expand</button></figure>
       </div>
     </div>
-  </div>
+
 </xcontent>
 </template>
 <script>
