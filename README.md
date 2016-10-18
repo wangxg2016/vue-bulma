@@ -4,6 +4,12 @@
 
 Demo网址：[https://admin-c79b5.firebaseapp.com/admin/index](https://admin-c79b5.firebaseapp.com/admin/index) 
 
+
+# Screenshot
+
+<img src="https://raw.githubusercontent.com/wangxg2016/vue-bulma/master/screenshot/charts.jpg" width="100%" />
+<img src="https://raw.githubusercontent.com/wangxg2016/vue-bulma/master/screenshot/progressbar.jpg" width="100%" />
+
 ## Build Setup
 
 ``` bash
