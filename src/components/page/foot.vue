@@ -6,8 +6,4 @@
   </footer>
 </template>
 <style lang=less>
-  footer{
-    padding:20px;
-    min-height:200px;
-  }
 </style>

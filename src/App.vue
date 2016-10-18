@@ -181,6 +181,9 @@ a .icon {
 .no-shadow{
   box-shadow:none;
 }
+.has-shadow{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
 .notification.is-normal {
     background-color: #fff;
     color: rgba(0, 0, 0, 0.7);
