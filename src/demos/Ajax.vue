@@ -3,7 +3,7 @@
   <span slot="title">Ajax</span>
   <div class="columns is-multiline">
     <div class="column is-4" v-for="(item,index) in items" :key="index">
-      <a target="_blank" :href="item.owner.html_url">
+      <a target="_blank" :href="item.html_url">
       <article class="message" :class="color[item.stargazers_count % 5]">
         <div class="message-header has-text-centered">
           <h1 class="is-3 title has-text-centered" v-text="item.name"></h1>
